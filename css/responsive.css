@@ -7,8 +7,9 @@
 	/* End Main Menu Area css
 	============================================================================================ */
 }
-@media (max-width: 1300px) {
-}
+
+@media (max-width: 1300px) {}
+
 @media (max-width: 1199px) {
 	/* Main Menu Area css
 	============================================================================================ */
@@ -76,9 +77,7 @@
 	.nav {
 		padding: 0px 0px;
 	}
-	.header_area + section,
-	.header_area + row,
-	.header_area + div {
+	.header_area+section, .header_area+row, .header_area+div {
 		margin-top: 117px;
 	}
 	.header_top .nav {
@@ -104,9 +103,7 @@
 	.header_area .navbar .nav .nav-item {
 		margin-right: 0px;
 	}
-	.header_area + section,
-	.header_area + row,
-	.header_area + div {
+	.header_area+section, .header_area+row, .header_area+div {
 		margin-top: 71px;
 	}
 	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
@@ -134,7 +131,6 @@
 	}
 	/* End Blog page Area css
 	============================================================================================ */
-
 	/* Contact Page Area css
 	============================================================================================ */
 	.contact_info {
@@ -163,6 +159,7 @@
 		min-height: 700px;
 	}
 }
+
 @media (max-width: 767px) {
 	.home_banner_area {
 		min-height: 500px;
@@ -208,12 +205,11 @@
 	/* End End Footer Area css
 	============================================================================================ */
 }
-@media (max-width: 600px) {
-}
+
+@media (max-width: 600px) {}
+
 @media (max-width: 575px) {
-	.header_area + section,
-	.header_area + row,
-	.header_area + div {
+	.header_area+section, .header_area+row, .header_area+div {
 		margin-top: 71px;
 	}
 	/* Home Banner Area css
@@ -249,7 +245,6 @@
 	}
 	/* End Elements Area css
 	============================================================================================ */
-
 	/* Blog Page Area css
 	============================================================================================ */
 	.blog_details h2 {
@@ -277,7 +272,6 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
-
 	/* Home Banner Area css
 	============================================================================================ */
 	.home_banner_area .banner_inner .banner_content {
@@ -297,7 +291,6 @@
 	.comments-area .thumb {
 		margin-right: 10px;
 	}
-
 	/* End Blog Page Area css
 	============================================================================================ */
 	.home_map_area .home_details .box_home_details {
